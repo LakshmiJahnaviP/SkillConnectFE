@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+/* Sticky Navigation Bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #2f8e4f; /* Green background */
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between; /* To space out the left and right sections */
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Left Side (My Profile) */
+.navbar-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navbar-left a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #2f8e4f;
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.navbar-left a:hover {
+  background-color: #1f6635;
+  border-radius: 5px;
+}
+
+/* Center (Skill Connect) */
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-center h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.navbar-center .caption {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Right Side (Logout) */
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navbar-right button {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #2f8e4f;
+  border: none;
+}
+
+.navbar-right button:hover {
+  background-color: #1f6635;
+}

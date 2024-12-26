@@ -1,0 +1,136 @@
+/* Global styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* White background */
+    color: black;
+  }
+  
+  h1, h2 {
+    color: #2f4f4f; /* Dark green color for titles */
+  }
+  
+  /* Sticky Navigation Bar */
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2f8e4f; /* Green background */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .navbar .caption {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /* Navigation Bar - Right Side (Profile and Logout) */
+  .navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #1f6635;
+  }
+  
+  /* Login Form Styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .login-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: #2f8e4f; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #1f6635;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .register-button {
+    margin-top: 10px;
+    background-color: #1f6635;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #2f8e4f;
+  }
+  
+  /* Profile Page */
+  .profile-page {
+    padding: 20px;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details input {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-details button {
+    background-color: #2f8e4f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-details button:hover {
+    background-color: #1f6635;
+  }
+  

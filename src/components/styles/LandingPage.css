@@ -1,0 +1,23 @@
+.landing-page {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .landing-page button:hover {
+    background-color: #ddd;
+  }
+  
+  

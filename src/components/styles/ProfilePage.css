@@ -1,0 +1,105 @@
+.profile-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-form {
+    margin-top: 20px;
+  }
+  
+  .profile-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #d1e7dd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .profile-label {
+    width: 120px;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .profile-value {
+    flex-grow: 1;
+    padding-left: 10px;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .skill-tag {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .remove-skill-button {
+    background: none;
+    border: none;
+    color: red;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .skill-badge {
+    background-color: #f0f8ff;
+    border: 1px solid #87cefa;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1e7dd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    font-size: 16px;
+  }
+  
+  button.edit-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.save-changes-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.save-changes-button:hover,
+  button.edit-button:hover {
+    opacity: 0.9;
+  }
+  
